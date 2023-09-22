@@ -51,9 +51,9 @@ public class Task {
 
     //виведення результату на екран
     public static void dataOnScreen(double sum, double discountSum, double total) {
-        System.out.print("Total coust: " + sum);
-        System.out.print("Your discount is: " + discountSum);
-        System.out.print("You have to pay: " + total);
+        System.out.println("Total cost: " + sum);
+        System.out.println("Your discount is: " + discountSum);
+        System.out.println("You have to pay: " + total);
     }
 }
 
